@@ -1,0 +1,5 @@
+node_modules/
+
+public/lib/**/*.js
+public/lib/**/*.js.map
+public/lib/**/*.d.ts
