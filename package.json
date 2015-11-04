@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "./node_modules/.bin/tsc -p ./ && ./node_modules/.bin/browserify ./public/lib/index.js -o public/main.js",
+    "pages": "npm run build && cp -r public/* pages/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

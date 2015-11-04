@@ -16,7 +16,6 @@ public/**/*.d.ts
 test/**/*.js
 test/**/*.js.map
 test/**/*.d.ts
-pages/
 
 tscommand.tmp.txt
 .baseDir.ts
