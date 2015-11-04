@@ -1,5 +1,22 @@
+.DS_Store
+
+# for npm
+npm-debug.log
 node_modules/
 
-public/lib/**/*.js
-public/lib/**/*.js.map
-public/lib/**/*.d.ts
+# for grunt
+.tscache/
+typings/
+example/*.js
+example/*.js.map
+example/*.d.ts
+public/**/*.js
+public/**/*.js.map
+public/**/*.d.ts
+test/**/*.js
+test/**/*.js.map
+test/**/*.d.ts
+pages/
+
+tscommand.tmp.txt
+.baseDir.ts

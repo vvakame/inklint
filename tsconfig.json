@@ -24,6 +24,8 @@
     "exclude": [],
     "files": [
         "./public/lib/index.ts",
+        "./typings/bundle.d.ts",
+        "./typings/eventemitter2/eventemitter2.d.ts",
         "./node_modules/typescript/lib/lib.es6.d.ts"
     ]
 }

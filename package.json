@@ -4,11 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "./node_modules/.bin/tsc -p ./ && ./node_modules/.bin/browserify ./public/lib/index.js -o public/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "browserify": "^12.0.1",
     "typescript": "^1.6.2"
+  },
+  "dependencies": {
+    "ikaloghub": "0.0.2"
   }
 }
